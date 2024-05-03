@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-image: url(https://images.hdqwalls.com/wallpapers/2022-scifi-blade-runner-2049-4k-h5.jpg);
+  color: #20466D;
+  background-color: #aed3e1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: normal;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h2 {
+  color: #7d12ff;
+  /* font-family:  'Palatino' serif; */
+  font-size: 30px;
+  -webkit-text-stroke: 0.5px white;
+  /* font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal; */
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  color: #7d12ff;
+  /* font-family:  'Palatino' serif; */
+  font-size: 45px;
+  -webkit-text-stroke: 0.5px white;
+  /* font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal; */
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#center-h2 {
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(255, 126, 5);
+}
+
+a:hover {
+  /* box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white; */
+  box-shadow: rgb(80 63 205 / 50%) 0px 1px 40px;
+  transition: all 0.1s ease 0s;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  margin: 25px auto;
+  box-shadow: 0px 0px 30px;
+  object-fit: cover;
+  border: 1px solid #ab20fd;
+}
+
+.container {
+  background-color: #000000;
+  width: 50%;
+  height: 10%;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 25px;
+  border: 3px solid #ab20fd;
+  /* box-shadow: grey; */
+}
+
+.card {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  height: auto;
+  width: fit-content;
+  font-size: 20px;
+  color: #EDC3FF;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#p-card {
+  margin: 17px 0px 40px;
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-left: 275px;
+  font-size: 14px;
+  height: 30px;
+  padding: 0px 15px;
+  text-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+  background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+  transition: all 0.5s ease 0s;
+}
+
+.button {
+  margin: auto;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+.fa-brands:hover {
+  color: white;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+/* .button {
+  text-align: center;
+} */
